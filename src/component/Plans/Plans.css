@@ -6,6 +6,18 @@
   padding: 0 2rem;
   position: relative;
 }
+.plans-blur-1 {
+  width: 100rem;
+  height: 30rem;
+  top: 6rem;
+  left: 0rem;
+}
+.plans-blur-2 {
+  width: 100rem;
+  height: 30rem;
+  top: 10rem;
+  right: 0rem;
+}
 .plans {
   align-items: center;
   display: flex;
