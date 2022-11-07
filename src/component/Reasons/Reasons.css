@@ -1,7 +1,7 @@
 .Reasons {
   padding: 0 2rem;
   display: flex;
-  grid-template: 2rem;
+  gap: 2rem;
 }
 .left-r {
   flex: 1 1;
@@ -70,4 +70,28 @@
 }
 .partners img {
   width: 2.5rem;
+}
+@media screen and (max-width: 786px) {
+  .Reasons {
+    flex-direction: column;
+  }
+  .left-r {
+    grid-auto-rows: auto;
+    overflow: hidden;
+  }
+  .left-r > :nth-child(1) {
+    width: 7rem;
+    height: 17rem;
+  }
+  .left-r > :nth-child(2) {
+    width: 15rem;
+    height: 10rem;
+  }
+  .left-r > :nth-child(3) {
+    width: 7rem;
+  }
+  .left-r > :nth-child(4) {
+    width: 7rem;
+    height: 6rem;
+  }
 }
